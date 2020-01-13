@@ -25,7 +25,6 @@ describe 'form page' do
 
   it 'new form submits content and renders form content' do
     visit new_student_path
-
     fill_in 'first_name', with: "Margaery"
     fill_in 'last_name', with: "Tyrell"
 
